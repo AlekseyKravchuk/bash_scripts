@@ -17,3 +17,7 @@ find ./ -maxdepth 1 -not -path '*/.*' -type f
 #     . is a dot (hidden filenames start with a dot on Linux), and
 #     * is another wildcard;
 #     -not means don't select files that match this test.
+
+
+# Найти все временные файлы emacs (заканчиваются на ~ и удалить их)
+find ./ -name "*~" -print0 | xargs -0 rm
