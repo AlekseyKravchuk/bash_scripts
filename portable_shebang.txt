@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+# This shebang will find bash on the user's PATH

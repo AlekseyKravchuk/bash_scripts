@@ -1,4 +1,0 @@
-recap:
-    Shell Scripting with Bash:
-    	  02. A First Look At Shell Scripts:
-	      03. Demo  A Note-Taking Script.wmv
